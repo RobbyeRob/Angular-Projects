@@ -1,1 +1,9 @@
-<h2>Product Component</h2>
+<div *ngFor="let product of products" class="container">
+  <div class="col">
+    <span class="fancy-button">{{product.name}}</span>
+  </div>
+  <div class="col">
+    <span>{{product.description}}</span>
+    <span>{{product.price}}</span>
+  </div> 
+</div>
