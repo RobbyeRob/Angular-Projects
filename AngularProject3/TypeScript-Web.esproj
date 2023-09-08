@@ -9,4 +9,9 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\AngularProject3</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\gallery\" />
+    <Folder Include="src\app\top-bar\" />
+    <Folder Include="src\app\product-list\" />
+  </ItemGroup>
 </Project>
