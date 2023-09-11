@@ -8,7 +8,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'AngularProject3';
+  title = 'RobbyeRob - Angular Projects';
+  description = 'Where the Rubber meets the road.  Using description variable to put data here.'
   totalAngularPackages: any;
 
   constructor(private http: HttpClient) { }
